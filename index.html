@@ -20,7 +20,7 @@
                 </a>
             </div> 
             <div class="encriptacion__texto"> <!--zona de encriptado-->
-                <textarea placeholder="Ingrese el texto aquí" class="encriptacion__texto__area"></textarea>
+                <textarea placeholder="Ingrese el texto aquí" class="encriptacion__texto__area" id="inputTexto"></textarea>
             </div>
             <div  class="encriptacion__mensaje"><!--mensaje de validacion-->
                 <div class="encriptacion__mensaje__icon">
@@ -31,20 +31,22 @@
                 </div>
             </div>
             <div class="encriptacion__botones"> <!--botones-->
-                <button class="encriptacion__botones__boton">Encriptar</button>
+                <button class="encriptacion__botones__boton" id="encriptar">Encriptar</button>
                 <a href="" ></a>
-                <button class="encriptacion__botones__boton">Desencriptar</button>
+                <button class="encriptacion__botones__boton" id="desencriptar">Desencriptar</button>
             </div>
 
             
         </div>
 
-        <div class="mensaje"> <!--mensaje encriptado-->
+        <div class="mensaje" id="mensaje"> <!--mensaje encriptado-->
             <div class="mensaje__box">
                 <img src="imgs/Muñeco.png" alt="find" class="mensaje__box__img">
                 <p class="mensaje__box__texto1">Ningún mensaje fue encontrado</p> 
-                <p class="mensaje__box__texto2">Ingresa el texto que desees encriptar o desencriptar</p><!--CORREGIR GAAAAAAA-->
-
+                <p class="mensaje__box__texto2">Ingresa el texto que desees encriptar o desencriptar</p>
+                <div class="mensaje__box">
+                    <p class="mensaje__box__texto3"></p>
+                </div>
             </div>
             
         </div>
@@ -53,7 +55,12 @@
 
     <footer>
         <p>Liz Karol Vergara</p>
+        <a href="https://www.linkedin.com/in/lizkarolvergara/">Linkedin</a><br>
+        <a href="https://github.com/lizkarolvergara">Github</a><br>
+        
     </footer>
+
+    <script src="scripts.js"></script>
 
 </body>
 </html>
