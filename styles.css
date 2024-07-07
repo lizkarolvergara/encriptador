@@ -34,13 +34,14 @@ main {
 
 .encriptacion__texto__area {
     color: var(--primario);
+    width: 70%;
     height: 20rem;
     resize: none;
     border: none;
     background-color: transparent;
     font-size: 32px;
     padding-top: 2rem;
-    padding-left: 14rem;
+    padding-left: 5rem;
 }
 
 .encriptacion__texto__area:focus {
@@ -59,12 +60,14 @@ main {
 
     .encriptacion__texto__area {
         padding: 2rem 2rem;
+        width: 80%;
         height: 30rem;
     }
 }
 
 @media (max-width: 394px) {
     .encriptacion__texto__area {
+        width: 80%;
         padding: 2rem 2rem;
         height: 20rem;
     }
