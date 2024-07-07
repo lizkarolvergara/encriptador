@@ -1,34 +1,35 @@
-Descripción
-¡Bienvenidas y bienvenidos a nuestro primer desafío!
+# Encriptador de Textos
 
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Este proyecto es parte del primer desafío de mi formación como principiante en prograación de **Alura**, donde se desarrolla una aplicación para encriptar y desencriptar textos utilizando un método específico.
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+## Descripción
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+Durante tres semanas, hem trabajado en una aplicación que permite intercambiar mensajes secretos utilizando las siguientes reglas de encriptación:
 
-Requisitos:
+- La letra "e" se convierte en "enter"
+- La letra "i" se convierte en "imes"
+- La letra "a" se convierte en "ai"
+- La letra "o" se convierte en "ober"
+- La letra "u" se convierte en "ufat"
 
-Debe funcionar solo con letras minúsculas
-No deben ser utilizados letras con acentos ni caracteres especiales
-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
+## Requisitos
 
-La página debe tener campos para
-inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-El resultado debe ser mostrado en la pantalla.
-Extras:
+- Funciona solo con letras minúsculas
+- No utiliza letras con acentos ni caracteres especiales
+- Permite convertir una palabra a su versión encriptada y viceversa
 
-Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
+## Funcionalidades
 
-La columna Listos para iniciar presenta las tarjetas con elementos que aun no fueron desarrollados.
-En la columna En Desarrollo estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-Por fin, en la columna Concluido estarán los elementos ya concluidos.
+- Inserción del texto a encriptar o desencriptar
+- Botón para copiar el texto encriptado/desencriptado al portapapeles
+- Selección entre encriptar y desencriptar
+
+## Uso
+
+Para ejecutar la aplicación:
+1. Clona este repositorio.
+2. Abre `index.html` en tu navegador.
+
+## Autor
+
+Liz Karol Vergara - [Linkedin](https://www.linkedin.com/in/lizkarolvergara/) - [Github](https://github.com/lizkarolvergara)
